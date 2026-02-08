@@ -15,9 +15,11 @@ Given human-authored structured notes for each cited paper (YAML):
   - provenance_card.md (appendix-ready)
   - taxonomy_graph.png (paper-ready figure)
 
-## Set-up .env
+## Set-up & Run
 ```bash
-# put openai_compatible or mock
+
+# Set up .env
+#put openai_compatible or mock
 LLM_BACKEND=openai_compatible 
 
 OPENAI_API_KEY=YOUR_KEY
