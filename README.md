@@ -16,11 +16,12 @@ Given human-authored structured notes for each cited paper (YAML):
   - taxonomy_graph.png (paper-ready figure)
 
 ## Set-up .env
-
+```bash
 # put openai_compatible or mock
 LLM_BACKEND=openai_compatible 
 
 OPENAI_API_KEY=YOUR_KEY
+
 OPENAI_BASE_URL=YOUR_URL
 
 OPENAI_MODEL=YOUR_MODEL
