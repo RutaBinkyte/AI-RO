@@ -15,11 +15,28 @@ Given human-authored structured notes for each cited paper (YAML):
   - provenance_card.md (appendix-ready)
   - taxonomy_graph.png (paper-ready figure)
 
+## Set-up .env
+
+# put openai_compatible or mock
+LLM_BACKEND=openai_compatible 
+
+OPENAI_API_KEY=YOUR_KEY
+OPENAI_BASE_URL=YOUR_URL
+
+OPENAI_MODEL=YOUR_MODEL
+
+TEMPERATURE=
+TOP_P=
+MAX_TOKENS=
+
 ## Quickstart 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
-# set LLM_BACKEND=mock in .env
+
+
+# For DEMO set LLM_BACKEND=mock in .env
 python -m src.pipeline --input data/references.yaml --out outputs --run-name demo
+# For actual run, set LLM_BACKEND=openai_compatible and provide info in .env
+python -m src.pipeline --run-name your_name
