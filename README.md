@@ -1,4 +1,4 @@
-cat > README.md <<'EOF'
+
 # AI-RO Related Work Pipeline 
 
 This repo provides a topic-agnostic, provenance-first pipeline for *legitimate* AI-assisted drafting of a Related Work section.
