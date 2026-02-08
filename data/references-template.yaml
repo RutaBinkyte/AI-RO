@@ -1,0 +1,34 @@
+
+topic: "REPLACE ME: your paper topic"
+contribution_statement: |
+  REPLACE ME: 2–4 sentences describing what your paper contributes and how it differs.
+
+papers:
+  - id: P1
+    citation: "Author et al., YEAR"
+    pid: "doi:10.XXXX/XXXX"
+    title: "Optional title"
+    summary: |
+      2–5 bullet sentences summarizing the paper based on direct reading.
+      Keep it factual (method, setting, key results).
+    strengths:
+      - "Strength 1"
+      - "Strength 2"
+    limitations:
+      - "Limitation 1"
+      - "Limitation 2"
+    relation_to_work: |
+      How it relates to *your* contribution (similarities/differences).
+    comments: |
+      Any extra notes (threat model assumptions, datasets, evaluation caveats, etc.)
+
+  - id: P2
+    citation: "Author et al., YEAR"
+    pid: "arxiv:2301.01234"
+    title: "Optional title"
+    summary: |
+      ...
+    strengths: []
+    limitations: []
+    relation_to_work: ""
+    comments: ""

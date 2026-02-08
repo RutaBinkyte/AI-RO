@@ -1,0 +1,7 @@
+pyyaml
+pydantic
+python-dotenv
+requests
+pandas
+matplotlib
+networkx==2.8.8

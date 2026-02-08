@@ -1,0 +1,148 @@
+topic: "Paradigms of authorship in generative AI creation"
+
+contribution_statement: |
+  This work reframes AI-assisted authorship as a procedural and accountable workflow.
+  We argue that legitimacy in AI-supported scientific writing depends on transparent
+  integration of AI into the research process rather than binary authorship claims.
+
+papers:
+
+  - id: P1
+    citation: "Sarkar, 2023"
+    pid: "doi:10.1145/3544549.3582734"
+    title: "Enough with Human–AI Collaboration"
+    summary: |
+      Argues that framing AI as a collaborator misrepresents agency and obscures
+      the human labor embedded in system design. Positions AI as a tool whose
+      outputs should not be anthropomorphized or treated as intentional creation.
+    strengths:
+      - Clear critique of anthropomorphic framing
+      - Strong conceptual grounding
+    limitations:
+      - Focused more on framing than operational guidelines
+    relation_to_work: |
+      Supports a tool-based view consistent with procedural accountability.
+    comments: "Anchors tool paradigm."
+
+  - id: P2
+    citation: "Dempere et al., 2025"
+    pid: "doi:placeholder"
+    title: "AI as a Research Partner"
+    summary: |
+      Proposes that AI may qualify as a contributor in academic contexts when it
+      substantively shapes intellectual direction, challenging strict tool-only models.
+    strengths:
+      - Expands authorship discussion into co-creation
+    limitations:
+      - Normative stance lacks procedural criteria
+    relation_to_work: |
+      Contrasts with procedural framing by emphasizing intellectual influence.
+    comments: ""
+
+  - id: P3
+    citation: "Formosa et al., 2025"
+    pid: "doi:10.1007/s00146-024-01954-x"
+    title: "Can ChatGPT be an Author?"
+    summary: |
+      Empirical study showing that perceptions of AI authorship depend on
+      transparency, responsibility, and disclosure. Highlights psychological
+      dimensions of ownership.
+    strengths:
+      - Empirical grounding
+      - Links perception and responsibility
+    limitations:
+      - Focused on perception rather than workflow mechanics
+    relation_to_work: |
+      Reinforces importance of transparency in AI-assisted writing.
+    comments: ""
+
+  - id: P4
+    citation: "Liu & Huang, 2025"
+    pid: "doi:10.1016/j.clsr.2025.106139"
+    title: "Creative Control Theory"
+    summary: |
+      Reframes authorship as control over decision points in AI-assisted creation,
+      emphasizing human steering of prompts, curation, and iteration rather than
+      direct production.
+    strengths:
+      - Operational view of creative agency
+    limitations:
+      - Does not specify audit mechanisms
+    relation_to_work: |
+      Aligns with procedural authorship through control and verification.
+    comments: ""
+
+  - id: P5
+    citation: "Hutson, 2025"
+    pid: "doi:placeholder"
+    title: "Human–AI Collaboration Framework"
+    summary: |
+      Introduces a multidimensional framework capturing degrees of human–AI
+      interaction across creative and editorial dimensions, rejecting binary authorship.
+    strengths:
+      - Nuanced attribution model
+    limitations:
+      - Conceptual rather than procedural implementation
+    relation_to_work: |
+      Supports continuum-based evaluation consistent with AI-RO framing.
+    comments: ""
+
+  - id: P6
+    citation: "Bonadio & Felisberto, 2025"
+    pid: "doi:placeholder"
+    title: "Copyrightability of AI Outputs"
+    summary: |
+      Legal analysis arguing that authorship requires substantial human creative
+      contribution beyond simple prompting or selection of AI outputs.
+    strengths:
+      - Legal grounding
+    limitations:
+      - Focused on copyright, not workflow design
+    relation_to_work: |
+      Reinforces necessity of meaningful human agency in AI-assisted writing.
+    comments: ""
+
+  - id: P7
+    citation: "Fritz, 2025"
+    pid: "doi:10.1093/jiplp/jpae119"
+    title: "Understanding Authorship in AI-Assisted Works"
+    summary: |
+      Emphasizes intellectual accountability in AI-assisted creation, asserting that
+      humans must verify claims, sources, and ethical implications.
+    strengths:
+      - Clear accountability framing
+    limitations:
+      - Focused on responsibility rather than tooling
+    relation_to_work: |
+      Directly supports AI-RO transparency and verification requirements.
+    comments: ""
+
+  - id: P8
+    citation: "Cyriac, 2025"
+    pid: "doi:placeholder"
+    title: "Metrics for Human–AI Co-Creation"
+    summary: |
+      Proposes evaluating human contribution by measuring how AI amplifies human
+      thought rather than productivity alone.
+    strengths:
+      - Measurement perspective
+    limitations:
+      - Early-stage conceptual metrics
+    relation_to_work: |
+      Suggests evaluative extensions to procedural authorship frameworks.
+    comments: ""
+
+  - id: P9
+    citation: "Belhajjame et al., 2012"
+    pid: "doi:placeholder"
+    title: "Research Object Paradigm"
+    summary: |
+      Defines research objects as structured containers encapsulating workflows,
+      data, software, and provenance to support transparency and reproducibility.
+    strengths:
+      - Established reproducibility framework
+    limitations:
+      - Not AI-specific
+    relation_to_work: |
+      Provides foundation for AI-RO procedural transparency model.
+    comments: ""

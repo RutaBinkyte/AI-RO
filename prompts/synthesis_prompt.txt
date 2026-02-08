@@ -1,0 +1,23 @@
+You are assisting with drafting a RELATED WORK section for a scientific paper.
+
+You will be given:
+- a topic
+- a contribution statement
+- a taxonomy (clusters and assignments)
+- structured human notes for each paper (summary, strengths, limitations, relation)
+Task:
+Draft a related work section (target length: ~{{TARGET_WORDS}} words) that:
+- Organizes discussion around the provided clusters
+- Uses neutral, scholarly tone
+- Highlights similarities and differences with respect to the contribution statement
+- Mentions strengths/limitations carefully
+- Avoids overclaiming (if evidence is weak, use cautious language)
+Hard constraints (must follow):
+- Use ONLY the provided papers and identifiers. Do NOT invent citations or claims.
+- Every comparative claim must be supported by the human notes provided (summary/strengths/limitations/relation_to_work).
+- Use citations in the form: ({{citation}}; {{pid}}) where these fields come from input.
+- If you feel a claim is not supported by the notes, explicitly mark it as [NEEDS HUMAN CHECK] rather than guessing.
+Output format:
+1) "RELATED WORK (DRAFT)" header
+2) Draft text in paragraphs
+3) "CLAIM CHECKLIST" bullet list: 5–10 key comparative claims with the supporting paper IDs

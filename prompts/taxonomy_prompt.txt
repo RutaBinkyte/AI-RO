@@ -1,0 +1,34 @@
+You are assisting with the RELATED WORK section of a scientific paper.
+
+Task:
+1) Cluster the provided papers into a small taxonomy of themes (3–7 clusters).
+2) As sign each paper to exactly one primary cluster.
+3) Provide 1–3 sentence rationale per cluster.
+4) Provide a few candidate comparative phrases that a human author could adapt.
+
+Hard constraints (must follow):
+- Use ONLY the provided papers and identifiers. Do NOT invent papers, authors, venues, dates, or citations.
+- When referencing a paper, use its "id" (e.g., P3) and include its "pid" (e.g., doi:... or arxiv:...).
+- If the input is insufficient to cluster confidently, state uncertainty and proceed conservatively.
+
+Output format: VALID JSON ONLY, no markdown, no commentary.
+Schema:
+{
+  "taxonomy_title": string,
+  "clusters": [
+    {
+      "cluster_id": "C1",
+      "name": string,
+      "rationale": string,
+      "paper_ids": [ "P1", "P2" ],
+      "comparative_phrases": [ string, string ]
+    }
+  ]
+}
+
+INPUT (YAML-like):
+Topic: {{TOPIC}}
+Contribution statement: {{CONTRIBUTION_STATEMENT}}
+
+Papers:
+{{PAPERS_BLOCK}}
